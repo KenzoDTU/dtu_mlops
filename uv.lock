@@ -1140,9 +1140,12 @@ dependencies = [
     { name = "mkdocs-material" },
     { name = "mkdocs-material-extensions" },
     { name = "mkdocs-same-dir" },
+    { name = "pkg" },
     { name = "pre-commit" },
     { name = "pymdown-extensions" },
     { name = "ruff" },
+    { name = "torch" },
+    { name = "torchvision" },
 ]
 
 [package.dev-dependencies]
@@ -1201,9 +1204,12 @@ requires-dist = [
     { name = "mkdocs-material", specifier = ">=9.7" },
     { name = "mkdocs-material-extensions", specifier = ">=1.3.1" },
     { name = "mkdocs-same-dir", specifier = ">=0.1.3" },
+    { name = "pkg", specifier = ">=0.2" },
     { name = "pre-commit", specifier = ">=4.1" },
     { name = "pymdown-extensions", specifier = ">=10.14.3" },
     { name = "ruff", specifier = ">=0.14.5" },
+    { name = "torch", specifier = ">=2.9.1" },
+    { name = "torchvision", specifier = ">=0.24.1" },
 ]
 
 [package.metadata.requires-dev]
@@ -4186,6 +4192,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/96/71/b6749742c33fabb2c8b3a1a2e128548ee09c36c9070137104dd5eb2010ea/pipreqs-0.4.13.tar.gz", hash = "sha256:a17f167880b6921be37533ce4c81ddc6e22b465c107aad557db43b1add56a99b", size = 47595, upload-time = "2023-04-14T07:10:25.429Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d9/ea/74c89d786cf3403bfbf8fb70142fdf501af9517d0bb8c1acce3ee5ab613e/pipreqs-0.4.13-py2.py3-none-any.whl", hash = "sha256:e522b9ed54aa3e8b7978ff251ab7a9af2f75d2cd8de4c102e881b666a79a308e", size = 33201, upload-time = "2023-04-14T07:10:23.248Z" },
+]
+
+[[package]]
+name = "pkg"
+version = "0.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/36/ac/c3fab959d62ed830a807c750596fa07932e6d2bd12b2c2743ae290bd9366/pkg-0.2.tar.gz", hash = "sha256:809e0221e41be4619ae412f56826e5a87c616abf9168838b170ead5db4a4118e", size = 10792, upload-time = "2020-04-06T18:49:49.124Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/41/86/2908a6096a80c519f1ecb7793344a53e127be4ad601864097f72a317f7cf/pkg-0.2-py3-none-any.whl", hash = "sha256:88849f47c7c4f5242f7190da896133613229ff17198c84d463b0ad8d458363f0", size = 15447, upload-time = "2020-04-06T18:49:46.665Z" },
 ]
 
 [[package]]
